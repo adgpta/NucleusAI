@@ -26,8 +26,7 @@ This documentation will guide users through the functionality of the GUI and how
    pip install -r requirements.txt
    
    ```
-4. 
-5. Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
+ 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
 
    `conda env create -f environment_YOUR_OS.yml`
 
@@ -45,8 +44,8 @@ We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU reso
 - Apple MX chip with GPU support (coming soon)
 - Linux Ubuntu with Nvidia GPU support (coming soon)
 
-A sample dataset can be dowloaded here:
-JN please give a link
+Sample datasets and models are provided in the SampleData folder. 
+
 
 
 
