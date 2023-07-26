@@ -1,0 +1,18 @@
+INFO:radiomics.batch: pyradiomics version: v3.0.1
+ERROR:radiomics.batch: IMAGES AND MASKS READ FAILED
+Traceback (most recent call last):
+  File "A:\PycharmProjects\NucleusAI\pyrad\extract_features_2D.py", line 68, in feature_extractor
+    check_data(imagefiles, maskfiles)
+  File "A:\PycharmProjects\NucleusAI\pyrad\extract_features_2D.py", line 47, in check_data
+    assert len(imagefiles) > 0, "Did not find any images"
+AssertionError: Did not find any images
+INFO:radiomics.batch: Loading Done
+INFO:radiomics.batch: Number of Images: 0
+INFO:radiomics.batch: Number of Masks: 0
+INFO:radiomics.featureextractor: No valid config parameter, using defaults: {'minimumROIDimensions': 2, 'minimumROISize': None, 'normalize': False, 'normalizeScale': 1, 'removeOutliers': None, 'resampledPixelSpacing': None, 'interpolator': 'sitkBSpline', 'preCrop': False, 'padDistance': 5, 'distances': [1], 'force2D': False, 'force2Ddimension': 0, 'resegmentRange': None, 'label': 1, 'additionalInfo': True}
+INFO:radiomics.featureextractor: Enabled image types: {'Original': {}}
+INFO:radiomics.featureextractor: Enabled features: {'firstorder': [], 'glcm': [], 'gldm': [], 'glrlm': [], 'glszm': [], 'ngtdm': [], 'shape': []}
+INFO:radiomics.featureextractor: Applying custom setting overrides: {'binWidth': 25, 'resampledPixelSpacing': None, 'interpolator': 23, 'enableCExtensions': True}
+INFO:radiomics.batch: Enabled input images types: {'Original': {}}
+INFO:radiomics.batch: Enabled features: {'firstorder': [], 'glcm': [], 'gldm': [], 'glrlm': [], 'glszm': [], 'ngtdm': [], 'shape': []}
+INFO:radiomics.batch: Current settings: {'minimumROIDimensions': 2, 'minimumROISize': None, 'normalize': False, 'normalizeScale': 1, 'removeOutliers': None, 'resampledPixelSpacing': None, 'interpolator': 23, 'preCrop': False, 'padDistance': 5, 'distances': [1], 'force2D': False, 'force2Ddimension': 0, 'resegmentRange': None, 'label': 1, 'additionalInfo': True, 'binWidth': 25, 'enableCExtensions': True}
