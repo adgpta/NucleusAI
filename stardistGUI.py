@@ -68,6 +68,7 @@ class MainWindow(QMainWindow):
                 background: #b6b7b8;
                 border-radius: 1px;
                 color: black;
+                font-weight: bold;
                 
             }
             QToolBox::tab:selected { /* italicize selected tabs */
