@@ -1532,7 +1532,7 @@ if __name__ == "__main__":
         app = QApplication(sys.argv)
         mainwindow = MainWindow()
 
-        mainwindow.setMinimumWidth(1200)
+        mainwindow.setMinimumWidth(1000)
         mainwindow.setMinimumHeight(800)
         mainwindow.setWindowTitle('NucleusAI')
 
