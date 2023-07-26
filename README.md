@@ -12,9 +12,11 @@ This documentation will guide users through the functionality of the GUI and how
 
 2. Open the conda terminal and clone the GitHub repository to a folder
 
-   `git clone https://github.com/adgpta/NucleusAI.git`
+   ```
+   git clone https://github.com/adgpta/NucleusAI.git
+   ```
    
-3. **Conda**: Create a virtual environment and install "requirements.txt" file using
+4. **Conda**: Create a virtual environment and install "requirements.txt" file using
    ```
    conda create --name NucleusAI python=3.9
    conda activate NucleusAI
@@ -24,7 +26,7 @@ This documentation will guide users through the functionality of the GUI and how
    ```
    pip install -r requirements.txt
    ```
- 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
+ 5. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
 
    `conda env create -f environment_YOUR_OS.yml`
 
