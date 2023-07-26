@@ -246,6 +246,9 @@
                                                                             padding-bottom: 5px; }
                                                                         </string>
                                                                     </property>
+                                                                    <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                                                    </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
                                                                     </property>
@@ -269,6 +272,9 @@
                                                                             10px; padding-right: 10px; padding-top: 5px;
                                                                             padding-bottom: 5px; }
                                                                         </string>
+                                                                    </property>
+                                                                    <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                                                                     </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
@@ -599,6 +605,9 @@
                                                                             padding-bottom: 5px; }
                                                                         </string>
                                                                     </property>
+                                                                    <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                                                    </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
                                                                     </property>
@@ -638,6 +647,9 @@
                                                                             padding-bottom: 5px; }
                                                                         </string>
                                                                     </property>
+                                                                    <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                                                    </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
                                                                     </property>
@@ -665,7 +677,7 @@
                                                                         </string>
                                                                     </property>
                                                                     <property name="toolTip">
-                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                                                                     </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
@@ -776,10 +788,8 @@
                                                                             padding-bottom: 5px; }
                                                                         </string>
                                                                     </property>
-                                                                    <property name="toolTip">
-                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse
-                                                                            directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-                                                                        </string>
+                                                                     <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                                                                     </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
@@ -805,10 +815,8 @@
                                                                             padding-bottom: 5px; }
                                                                         </string>
                                                                     </property>
-                                                                    <property name="toolTip">
-                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse
-                                                                            directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-                                                                        </string>
+                                                                   <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                                                                     </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
@@ -845,9 +853,7 @@
                                                                         </string>
                                                                     </property>
                                                                     <property name="toolTip">
-                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse
-                                                                            directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-                                                                        </string>
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                                                                     </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
@@ -994,6 +1000,9 @@
                                                                     </property>
                                                                     <property name="enabled">
                                                                         <bool>true</bool>
+                                                                    </property>
+                                                                 <property name="toolTip">
+                                                                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Browse directory&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                                                                     </property>
                                                                     <property name="text">
                                                                         <string>Browse</string>
