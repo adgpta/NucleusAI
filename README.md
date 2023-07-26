@@ -12,27 +12,27 @@ This documentation will guide users through the functionality of the GUI and how
 
 2. Open the conda terminal and clone the GitHub repository to a folder
 
-   `git clone https://github.com/adgpta/NucleusAI.git`
+   ```
+   git clone https://github.com/adgpta/NucleusAI.git
+   ```
    
-3. **Conda**: Create a virtual environment and install "requirements.txt" file using
+4. **Conda**: Create a virtual environment and install "requirements.txt" file using
    ```
    conda create --name NucleusAI python=3.9
    conda activate NucleusAI
    pip install -r requirements.txt
-   
    ```
    OR in **IDE**: Open cloned repository as a new project. In terminal enter:
    ```
    pip install -r requirements.txt
-   
    ```
- 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
+ 5. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
 
    `conda env create -f environment_YOUR_OS.yml`
 
    YOUR_OS: is the name of the operative system of the `.yml` file
 
-6. You can run the NucleusAI by running the following command:
+6. You can run the GUI by entering the following command:
 
    `python NucleusAI.py `
 
@@ -44,22 +44,24 @@ We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU reso
 - Apple MX chip with GPU support (coming soon)
 - Linux Ubuntu with Nvidia GPU support (coming soon)
 
-Sample datasets and models are provided in the SampleData folder. 
+Sample datasets and models are provided in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData). 
 
 
+## Guide:
+1. Run the GUI by entering the following command:
+
+   `python NucleusAI.py `
+   
+### Training: For training your own StarDist models:
 
 
-## Step-by-step NucleusAI Workflow Description:
-
-###### Training:
+### Validation:
 ...
-###### Validation:
-...
-###### Prediction:
+#### Prediction:
 
 ...
 
-###### Feature Extraction (based on PyRad):
+#### Feature Extraction (based on PyRad):
 
 ...
 
