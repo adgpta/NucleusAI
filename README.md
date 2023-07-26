@@ -19,12 +19,10 @@ This documentation will guide users through the functionality of the GUI and how
    conda create --name NucleusAI python=3.9
    conda activate NucleusAI
    pip install -r requirements.txt
-   
    ```
    OR in **IDE**: Open cloned repository as a new project. In terminal enter:
    ```
    pip install -r requirements.txt
-   
    ```
  4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
 
@@ -32,7 +30,7 @@ This documentation will guide users through the functionality of the GUI and how
 
    YOUR_OS: is the name of the operative system of the `.yml` file
 
-6. You can run the NucleusAI by running the following command:
+6. You can run the GUI by entering the following command:
 
    `python NucleusAI.py `
 
@@ -44,22 +42,24 @@ We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU reso
 - Apple MX chip with GPU support (coming soon)
 - Linux Ubuntu with Nvidia GPU support (coming soon)
 
-Sample datasets and models are provided in the SampleData folder. 
+Sample datasets and models are provided in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData). 
 
 
+## Guide:
+1. Run the GUI by entering the following command:
+
+   `python NucleusAI.py `
+   
+### Training: For training your own StarDist models:
 
 
-## Step-by-step NucleusAI Workflow Description:
-
-###### Training:
+### Validation:
 ...
-###### Validation:
-...
-###### Prediction:
+#### Prediction:
 
 ...
 
-###### Feature Extraction (based on PyRad):
+#### Feature Extraction (based on PyRad):
 
 ...
 
