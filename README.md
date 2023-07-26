@@ -12,15 +12,27 @@ This documentation will guide users through the functionality of the GUI and how
 
 2. Open the conda terminal and clone the GitHub repository to a folder
 
-   `git clone https://github.com/SFB1158RDM/NucleusAI.git`
-
-3. Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
+   `git clone https://github.com/adgpta/NucleusAI.git`
+   
+3. **Conda**: Create a virtual environment and install "requirements.txt" file using
+   ```
+   conda create --name NucleusAI python=3.9
+   conda activate NucleusAI
+   pip install -r requirements.txt
+   
+   ```
+   OR in **IDE**: Open cloned repository as a new project. In terminal enter:
+   ```
+   pip install -r requirements.txt
+   
+   ```
+ 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
 
    `conda env create -f environment_YOUR_OS.yml`
 
    YOUR_OS: is the name of the operative system of the `.yml` file
 
-4. You can run the NucleusAI by running the following command:
+6. You can run the NucleusAI by running the following command:
 
    `python NucleusAI.py `
 
@@ -32,8 +44,8 @@ We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU reso
 - Apple MX chip with GPU support (coming soon)
 - Linux Ubuntu with Nvidia GPU support (coming soon)
 
-A sample dataset can be dowloaded here:
-JN please give a link
+Sample datasets and models are provided in the SampleData folder. 
+
 
 
 
