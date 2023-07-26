@@ -1534,9 +1534,9 @@ if __name__ == "__main__":
 
         mainwindow.setMinimumWidth(1200)
         mainwindow.setMinimumHeight(800)
-        mainwindow.setWindowTitle('StardistGUI')
+        mainwindow.setWindowTitle('NucleusAI')
 
-        print('Running StardistGUI version 0.1 alfa (build 2022-10-23) for', platform.system())
+        print('Running NucleusAI version 2 (build 2023-07-20) for', platform.system())
         app.setWindowIcon(QIcon('stardist.ico'))
         app.setApplicationName("Stardist GUI")
         app.setWindowIcon(QIcon(
