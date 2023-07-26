@@ -1,17 +1,16 @@
 # NucleusAI: GUI Application for Nuclei Segmentation and Features Extraction
-<img src="/Users/carloberetta/Documents/GitHub/NucleusAI/static/Screenshot 2023-07-23 at 18.42.37.png" style="zoom:50%;" />
 
+NucleusAI provides a graphical user interface (GUI) platform to segment fluorescence images acquired from different microscopy techniques and extract radiomics features. This is applicable for both 2D and 3D images. Users can train their own segmentation models, validate the data and use the model to segment images in batches.
 
+This documentation will guide users through the functionality of the GUI and how to use it effectively.
 
-[DESCRIPTION]
-
-
+## Installation
 
 #### Conda Installation:
 
 1. Download and install [anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/index.html) and [git](https://git-scm.com/downloads)
 
-2. Open the terminal (on Windows the Anconda Command Prompt) and clone the GitHub repository in your favorite directory
+2. Open the conda terminal and clone the GitHub repository to a folder
 
    `git clone https://github.com/SFB1158RDM/NucleusAI.git`
 
