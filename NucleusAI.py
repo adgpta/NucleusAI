@@ -216,6 +216,8 @@ class MainWindow(QMainWindow):
 
         self.outlinesoncheck.toggled.connect(self.mask_outline_toggle_viewbox)
         self.maskoncheck.toggled.connect(self.mask_outline_toggle_viewbox)
+        self.maskoncheck.setEnabled(False)
+        self.outlinesoncheck.setEnabled(False)
 
         # -------------------------REVERT IMAGE TO ORIGINAL-------------------------
         self.reset_image_push.setEnabled(False)
@@ -340,7 +342,8 @@ class MainWindow(QMainWindow):
 
     def ipbrowsefiles(self):
         self.page_index = 'training_page'
-
+        self.maskoncheck.setEnabled(True)
+        self.outlinesoncheck.setEnabled(True)
         self.inputfileRaw = QFileDialog.getExistingDirectory(self, 'Select folder containing raw images', '')
         self.inputfilemask = QFileDialog.getExistingDirectory(self, 'Select folder containing labelled images', '')
 
@@ -653,7 +656,8 @@ class MainWindow(QMainWindow):
     def validation_page_ip(self):
         self.page_index = 'validation_page'
         # self.val_ipfilename = QFileDialog.getExistingDirectory(self, 'Open directory', '')
-
+        self.maskoncheck.setEnabled(True)
+        self.outlinesoncheck.setEnabled(True)
         self.val_ipfilenameRaw = QFileDialog.getExistingDirectory(self, 'Select folder containing raw images', '')
         self.val_ipfilenamemask = QFileDialog.getExistingDirectory(self, 'Select folder containing binary masks', '')
 
@@ -742,6 +746,8 @@ class MainWindow(QMainWindow):
     # --------------------Start extraction_page user inputs-----------------------------------------
     def extraction_page_ip(self):
         self.page_index = 'extraction_page'
+        self.maskoncheck.setEnabled(True)
+        self.outlinesoncheck.setEnabled(True)
         # self.extract_ipfilename = QFileDialog.getExistingDirectory(self, 'Open directory', '')
         self.extract_ipfilenameRaw = QFileDialog.getExistingDirectory(self, 'Select folder containing raw images', '')
         self.extract_ipfilenameMask = QFileDialog.getExistingDirectory(self, 'Select folder containing binary masks',
