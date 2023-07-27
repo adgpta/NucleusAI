@@ -50,10 +50,33 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 ## Guide:
 1. Run the GUI by entering the following command:
 
-   `python NucleusAI.py `
-   
-### Training: For training your own StarDist models:
+   ```
+   python NucleusAI.py
+   ```
+   <div align = "center">  
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/f66d292b-95b7-47ad-8e75-b7098f0f5835">
+   </div>
 
+### _Training: For training your own StarDist models:_
+1. Select directories for raw iamges, labelled images and output directory.
+
+   <div align = "center">  
+      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/5593da1a-d9ad-4420-8464-27139c6eea2a">
+   </div>
+
+2. Select training parameters. The default valudes are provided. Tooltips are added for more description.
+
+   <div align = "center">  
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/a647d725-2e74-4d32-8d3b-ef7fe6dd866f">
+   </div>
+
+3. Click "Train" to start training. Training parameters can be exported via "Export parameters".
+
+   <div align = "center">  
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3f56856f-762a-44d3-9773-bb450534f4ef">
+   </div>
+
+4. Training progress can be viewed in the terminal. "Tensorboard" shows the dashboard with plots for the current training.
 
 ### Validation:
 ...
