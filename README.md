@@ -26,15 +26,19 @@ This documentation will guide users through the functionality of the GUI and how
    ```
    pip install -r requirements.txt
    ```
- 5. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies:
+ 5. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies. `YOUR_OS` is the name of the operative system of the `.yml` file
 
-   `conda env create -f environment_YOUR_OS.yml`
+      ```
+      conda env create -f environment_YOUR_OS.yml
+      ```
 
-   YOUR_OS: is the name of the operative system of the `.yml` file
+   
 
 6. You can run the GUI by entering the following command:
 
-   `python NucleusAI.py `
+   ```
+   python NucleusAI.py
+   ```
 
 #### Prebuilt Versions:
 
@@ -61,13 +65,13 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 1. Select directories for raw iamges, labelled images and output directory.
 
    <div align = "center">  
-      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/5593da1a-d9ad-4420-8464-27139c6eea2a">
+      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/a324a9ea-4611-4e3d-9aae-a1b81682490f">
    </div>
 
 2. Select training parameters. The default valudes are provided. Tooltips are added for more description.
 
    <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/a647d725-2e74-4d32-8d3b-ef7fe6dd866f">
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/64514bb5-cfe0-43d0-bd0f-152c551d6fd2">
    </div>
 
 3. Click "Train" to start training. Training parameters can be exported via "Export parameters".
@@ -76,19 +80,24 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
       <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3f56856f-762a-44d3-9773-bb450534f4ef">
    </div>
 
-4. Training progress can be viewed in the terminal. "Tensorboard" shows the dashboard with plots for the current training.
+4. Training progress can be viewed in the terminal. Click on "Tensorboard" to view the dashboard with plots for the current training.
+5. Click on the predict button to segment current files with the trained model. 
 
 ### Validation:
 ...
-#### Prediction:
+### Segmentation:
 
 ...
 
-#### Feature Extraction (based on PyRad):
+### Feature Extraction (based on Pyradiomics):
 
-...
+   
+## Image viewer:
+The image viewer loads the images and masks from the input directories. The following video shows the available functions:
 
-Video tutorials will be available soon.
+<div align = "center">  
+   <video width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/069feb78-6cc1-4b9d-905d-660bb3c0dc94">
+</div>
 
 
 
