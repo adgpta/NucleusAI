@@ -26,7 +26,7 @@ This documentation will guide users through the functionality of the GUI and how
    ```
    pip install -r requirements.txt
    ```
- 5. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies. `YOUR_OS` is the name of the operative system of the `.yml` file
+ 5. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies. `YOUR_OS` is the name of the             operative system of the `.yml` file
 
       ```
       conda env create -f environment_YOUR_OS.yml
