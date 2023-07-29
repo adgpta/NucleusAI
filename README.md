@@ -105,7 +105,7 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
       <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3bd9e7a7-fac3-443b-9ef6-b778b871ebed">
    </div> 
 
-### Feature Extraction (based on Pyradiomics):
+_### Feature Extraction (based on Pyradiomics)_
 
 1. Select directories for raw images, segmented masks and output.
 2. Set the parameters (for 2D or 3D dataset).
