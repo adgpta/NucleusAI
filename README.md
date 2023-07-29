@@ -111,10 +111,10 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 2. Set the parameters (for 2D or 3D dataset).
 3. Run `Extract Features`. The module will use the raw images and the segmented masks to extract radiomics features and save the data as `.csv` in the output directory.
   
-   <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3d886650-5572-4058-a17c-cdbc4dd6f1b5">
+  <div align = "center">  
+      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/4827e4b2-43d1-40fa-a1d9-509a40950753">
    </div> 
- 
+
 
 ## Image viewer:
 The image viewer loads the images and masks from the input directories. The following video shows the available functions:
