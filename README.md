@@ -39,7 +39,7 @@ This documentation will guide users through the functionality of the GUI and how
 
 #### Prebuilt Versions:
 
-We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU resources and more will come for Apple MX chip and Linux OS:
+We built an `.exe` file for Windows 10 to run the [NucleusAI](https://www.dropbox.com/scl/fo/9ewk11zqelqf3hm6v08a3/h?dl=0&rlkey=r7ckqk1cs7ar4s914whesi4h8) with Nvidia GPU resources. 
 
 - [Windows with Nvidia GPU support](https://www.dropbox.com/scl/fo/9ewk11zqelqf3hm6v08a3/h?rlkey=r7ckqk1cs7ar4s914whesi4h8&dl=0)
 - Apple MX chip with GPU support (coming soon)
