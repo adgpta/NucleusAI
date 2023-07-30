@@ -114,8 +114,9 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
   <div align = "center">  
       <img src="https://github.com/adgpta/NucleusAI/assets/77382748/4827e4b2-43d1-40fa-a1d9-509a40950753">
    </div> 
-
-
+   
+4. Sample extraction files can be found [here](https://github.com/adgpta/NucleusAI/tree/master/SampleData/PyradiomicsFiles).
+   
 ## Image viewer:
 The image viewer loads the images and masks from the input directories. The following video shows the available functions:
 
