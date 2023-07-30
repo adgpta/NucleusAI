@@ -26,10 +26,10 @@ This documentation will guide users through the functionality of the GUI and how
    ```
    pip install -r requirements.txt
    ```
- 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies. `YOUR_OS` is the name of the             operative system of the `.yml` file.
+ 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies. `YOUR_OS` is the name of the operating system of the `.yml` file.
 
       ```
-      conda env create -f environment_YOUR_OS.yml
+      conda env create -f EnvYOUR_OS.yml
       ```
  5. You can run the GUI by entering the following command:
    
@@ -48,6 +48,7 @@ We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU reso
 Sample datasets and models are provided in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData). 
 
 
+
 ## Guide:
 1. Run the GUI by entering the following command:
 
@@ -55,7 +56,7 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
    python NucleusAI.py
    ```
    <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/f66d292b-95b7-47ad-8e75-b7098f0f5835">
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/e893fb36-6db7-43a8-9ab0-03fd3e3ec204">
    </div>
 
 ### _Training: Training your own StarDist models_
@@ -63,19 +64,19 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 1. Select directories for raw images, labelled images and output.
 
    <div align = "center">  
-      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/a324a9ea-4611-4e3d-9aae-a1b81682490f">
+      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/897e71f6-3d84-408b-af17-ccf49bbb82ee">
    </div>
 
 2. Select training parameters. The default valudes are provided. Tooltips are added for more description.
 
    <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/64514bb5-cfe0-43d0-bd0f-152c551d6fd2">
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/ed37fda5-a18e-4de0-8231-270c2e5db249">
    </div>
 
 3. Click `Train` to start training. Training parameters can be exported via `Export parameters`.
 
    <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3f56856f-762a-44d3-9773-bb450534f4ef">
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/73c78356-9331-4d51-9064-e897ae73b5ac">
    </div>
 
 4. Training progress can be viewed in the terminal. Click on `Tensorboard` to view the dashboard with plots for the current training.
@@ -89,7 +90,7 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 4. The output shows the validation accuracy of each file and overall statistics of all the input raw images.
 
    <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/d9309412-17d2-461a-a102-89004d48c453">
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/af8295a7-7e73-4110-a3bc-0d3e7473c713">
    </div>
    
 5. Click on `Export` to export all validation statistics to a .csv file.
@@ -101,28 +102,30 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 3. Run `Segment`. The module will use the raw images and segmented them using the trained model and save the segmented masks in the output directory. The progress can be viewed in the terminal.
    
    <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/c70b8898-7d7a-4938-963f-3965bebb3e5a">
+      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3bd9e7a7-fac3-443b-9ef6-b778b871ebed">
    </div> 
 
-   
-### Feature Extraction (based on Pyradiomics):
+### _Feature Extraction (based on Pyradiomics)_
 
 1. Select directories for raw images, segmented masks and output.
 2. Set the parameters (for 2D or 3D dataset).
 3. Run `Extract Features`. The module will use the raw images and the segmented masks to extract radiomics features and save the data as `.csv` in the output directory.
   
-   <div align = "center">  
-      <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/f9091c69-81dd-4b9d-8362-e5b61b2060d1">
+  <div align = "center">  
+      <img src="https://github.com/adgpta/NucleusAI/assets/77382748/4827e4b2-43d1-40fa-a1d9-509a40950753">
    </div> 
+   
+4. Sample extraction files can be found [here](https://github.com/adgpta/NucleusAI/tree/master/SampleData/PyradiomicsFiles).
    
 ## Image viewer:
 The image viewer loads the images and masks from the input directories. The following video shows the available functions:
 
 <div align = "center">  
-   <video width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/069feb78-6cc1-4b9d-905d-660bb3c0dc94">
+   <video width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3ef51726-14bb-4465-be6a-35dbf5b9b330">
 </div>
 
 ## Known issues:
+
 
 1. GUI crashes with the following error when running: (when installed using requirements.txt)
 
