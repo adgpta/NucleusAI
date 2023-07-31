@@ -18,7 +18,7 @@ This documentation will guide users through the functionality of the GUI and how
    
 3. **Conda**: Create a virtual environment and install "requirements.txt" file using
    ```
-   conda create --name NucleusAI python=3.9
+   conda create env -f environments/Env.yml
    conda activate NucleusAI
    pip install -r requirements.txt
    ```
