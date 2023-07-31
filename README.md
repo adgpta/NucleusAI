@@ -18,7 +18,7 @@ This documentation will guide users through the functionality of the GUI and how
    
 3. **Conda**: Create a virtual environment with the provided environment files and install "requirements.txt" file using
    ```
-   conda create env -f environments/Env.yml
+   conda env create -f environments/Env.yml
    conda activate Stardist_GUI
    pip install -r requirements.txt
    ```
