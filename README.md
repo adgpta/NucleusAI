@@ -29,7 +29,7 @@ This documentation will guide users through the functionality of the GUI and how
  4. You can run the GUI by entering the following command:
    
       ```
-      python NucleusAI.py
+      python Stardist_GUI.py
       ```
 
 #### Prebuilt Versions:
