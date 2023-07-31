@@ -29,7 +29,7 @@ This documentation will guide users through the functionality of the GUI and how
  4. You can run the GUI by entering the following command:
    
       ```
-      python Stardist_GUI.py
+      python NucleusAI.py
       ```
 
 #### Prebuilt Versions:
@@ -48,7 +48,7 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 1. Run the GUI by entering the following command:
 
    ```
-   python Stardist_GUI.py
+   python NucleusAI.py
    ```
    <div align = "center">  
       <img width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/e893fb36-6db7-43a8-9ab0-03fd3e3ec204">
