@@ -32,19 +32,11 @@ This documentation will guide users through the functionality of the GUI and how
       python NucleusAI.py
       ```
 
-#### Prebuilt Versions:
-
-We built an `.exe` file for Windows 10 to run the [NucleusAI](https://www.dropbox.com/scl/fo/9ewk11zqelqf3hm6v08a3/h?dl=0&rlkey=r7ckqk1cs7ar4s914whesi4h8) with Nvidia GPU resources. In this version the folder names in the input folder are hardcoded, in your input folder you have to provide the folder "images" and "masks" for it to work.
-
-- [Windows with Nvidia GPU support](https://www.dropbox.com/scl/fo/9ewk11zqelqf3hm6v08a3/h?rlkey=r7ckqk1cs7ar4s914whesi4h8&dl=0)
-- Apple MX chip with GPU support (coming soon)
-- Linux Ubuntu with Nvidia GPU support (coming soon)
+## Guide:
 
 Sample datasets and models are provided in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData). 
 
 
-
-## Guide:
 1. Run the GUI by entering the following command:
 
    ```
