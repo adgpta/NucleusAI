@@ -16,22 +16,17 @@ This documentation will guide users through the functionality of the GUI and how
    git clone https://github.com/adgpta/NucleusAI.git
    ```
    
-3. **Conda**: Create a virtual environment and install "requirements.txt" file using
+3. **Conda**: Create a virtual environment with the provided environment files and install "requirements.txt" file using
    ```
-   conda create --name NucleusAI python=3.9
-   conda activate NucleusAI
+   conda create env -f environments/Env.yml
+   conda activate Stardist_GUI
    pip install -r requirements.txt
    ```
    OR in **IDE**: Open cloned repository as a new project. In terminal enter:
    ```
    pip install -r requirements.txt
    ```
- 4. **To install using environment files**: Navigate to the enviroment directory and run the following command to install NucleusAI dependencies. `YOUR_OS` is the name of the operating system of the `.yml` file.
-
-      ```
-      conda env create -f EnvYOUR_OS.yml
-      ```
- 5. You can run the GUI by entering the following command:
+ 4. You can run the GUI by entering the following command:
    
       ```
       python NucleusAI.py
@@ -39,7 +34,7 @@ This documentation will guide users through the functionality of the GUI and how
 
 #### Prebuilt Versions:
 
-We built an `.exe` file for Windows 10 to run the NucleusAI with Nvidia GPU resources and more will come for Apple MX chip and Linux OS:
+We built an `.exe` file for Windows 10 to run the [NucleusAI](https://www.dropbox.com/scl/fo/9ewk11zqelqf3hm6v08a3/h?dl=0&rlkey=r7ckqk1cs7ar4s914whesi4h8) with Nvidia GPU resources. In this version the folder names in the input folder are hardcoded, in your input folder you have to provide the folder "images" and "masks" for it to work.
 
 - [Windows with Nvidia GPU support](https://www.dropbox.com/scl/fo/9ewk11zqelqf3hm6v08a3/h?rlkey=r7ckqk1cs7ar4s914whesi4h8&dl=0)
 - Apple MX chip with GPU support (coming soon)
@@ -97,7 +92,7 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
 
 ### _Segmentation: Segment fluorescent images._
 
-1. Select directories for raw images and output and the trained model.
+1. Select directories for raw images and output and the trained model. Sample files can be found in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData)
 2. Set the parameters (for 2D or 3D dataset). 
 3. Run `Segment`. The module will use the raw images and segmented them using the trained model and save the segmented masks in the output directory. The progress can be viewed in the terminal.
    
@@ -115,7 +110,7 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
       <img src="https://github.com/adgpta/NucleusAI/assets/77382748/4827e4b2-43d1-40fa-a1d9-509a40950753">
    </div> 
    
-4. Sample extraction files can be found [here](https://github.com/adgpta/NucleusAI/tree/master/SampleData/PyradiomicsFiles).
+4. Sample extracted files can be found [here](https://github.com/adgpta/NucleusAI/tree/master/SampleData/PyradiomicsFiles).
    
 ## Image viewer:
 The image viewer loads the images and masks from the input directories. The following video shows the available functions:
