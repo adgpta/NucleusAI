@@ -4,9 +4,9 @@ NucleusAI provides a graphical user interface (GUI) platform to segment fluoresc
 
 This documentation will guide users through the functionality of the GUI and how to use it effectively.
 
-## Installation
+## Installation (Windows, Linux)
 
-#### Conda Installation (works currently only for Windows and Linux):
+#### Conda Installation:
 
 1. Download and install [anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/index.html) and [git](https://git-scm.com/downloads)
 
@@ -32,6 +32,26 @@ This documentation will guide users through the functionality of the GUI and how
       python NucleusAI.py
       ```
 
+## Installation (Apple, tested on M1 chip)
+
+1. Download and install [miniforge](https://github.com/conda-forge/miniforge)
+2.  Open the conda terminal and clone the GitHub repository to a folder
+
+   ```
+   git clone https://github.com/adgpta/NucleusAI.git
+   ```
+3. **Conda**: Create a virtual environment
+   ```
+   conda create -y -n Stardist_GUI python=3.9
+   conda activate Stardist_GUI
+   conda install -c apple tensorflow-deps
+   pip install -r requirements_apple_m1.txt
+   ```
+ 4. You can run the GUI by entering the following command:
+   
+      ```
+      python NucleusAI.py
+      ```
 ## Guide:
 
 Sample datasets and models are provided in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData). 
