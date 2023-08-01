@@ -6,7 +6,7 @@ This documentation will guide users through the functionality of the GUI and how
 
 ## Installation
 
-#### Conda Installation:
+#### Conda Installation (works currently only for Windows and Linux):
 
 1. Download and install [anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/index.html) and [git](https://git-scm.com/downloads)
 
