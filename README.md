@@ -4,6 +4,8 @@ NucleusAI provides a graphical user interface (GUI) platform to segment fluoresc
 
 This documentation will guide users through the functionality of the GUI and how to use it effectively.
 
+<br/>
+
 ## Installation (Windows, Linux)
 
 #### Conda Installation:
@@ -31,15 +33,18 @@ This documentation will guide users through the functionality of the GUI and how
       ```
       python NucleusAI.py
       ```
+<br/>
 
 ## Installation (Apple, tested on M1 chip)
 
 1. Download and install [miniforge](https://github.com/conda-forge/miniforge)
+   
 2.  Open the conda terminal and clone the GitHub repository to a folder
 
    ```
    git clone https://github.com/adgpta/NucleusAI.git
    ```
+
 3. **Conda**: Create a virtual environment
    ```
    conda create -y -n Stardist_GUI python=3.9
@@ -47,6 +52,7 @@ This documentation will guide users through the functionality of the GUI and how
    conda install -c apple tensorflow-deps
    pip install -r requirements_apple_m1.txt
    ```
+   
  4. You can run the GUI by entering the following command:
    
       ```
@@ -55,7 +61,9 @@ This documentation will guide users through the functionality of the GUI and how
 ------------------------------------------------------------------------------
 > _**For issues during installation please refer to the [Known issues](https://github.com/adgpta/NucleusAI/tree/9b032a2ee20c8981da7b9f8c6f58aad356806359#known-issues) section**_
 ------------------------------------------------------------------------------
-      
+
+<br/>
+
 ## Guide:
 
 Sample datasets and models are provided in [SampleData](https://github.com/adgpta/NucleusAI/tree/master/SampleData). 
@@ -126,8 +134,12 @@ Sample datasets and models are provided in [SampleData](https://github.com/adgpt
       <img src="https://github.com/adgpta/NucleusAI/assets/77382748/4827e4b2-43d1-40fa-a1d9-509a40950753">
    </div> 
    
-4. Sample extracted files can be found [here](https://github.com/adgpta/NucleusAI/tree/master/SampleData/PyradiomicsFiles).
-   
+<br/>
+
+Sample extracted files can be found [here](https://github.com/adgpta/NucleusAI/tree/master/SampleData/PyradiomicsFiles).
+
+<br/>
+
 ## Image viewer:
 The image viewer loads the images and masks from the input directories. The following video shows the available functions:
 
@@ -135,22 +147,35 @@ The image viewer loads the images and masks from the input directories. The foll
    <video width = 640 src="https://github.com/adgpta/NucleusAI/assets/77382748/3ef51726-14bb-4465-be6a-35dbf5b9b330">
 </div>
 
+<br/>
+<br/>
+
 ## Known issues:
 
 
 1. Error while installing PyQt5.
+   
    **To resolve:**
+   
       a. Install PyQt5 manually.
-         `Via homebrew: brew install qt@5`
+   
+         Via homebrew: brew install qt@5
+   
       b. Add qmake path to the .zshrc file.
-         `via Z shell: export PATH="$PATH:[PathToqmakebin-folder]"`
+   
+         via Z shell: export PATH="$PATH:[PathToqmakebin-folder]"
+   
       c. Restart terminal and reactivate conda environment.
+   
       d. Install PyQt5 using pip.
-         `pip3 install PyQt5 --config-settings --confirm-license= --verbose`
+   
+         pip3 install PyQt5 --config-settings --confirm-license= --verbose
+   
       e. Remove PyQT5 from the requirements.txt and restart installation with:
-          `pip install -r requirements_apple_m1.txt`
+   
+         pip install -r requirements_apple_m1.txt
 
-2. GUI crashes with the following error when running: (when installed using requirements.txt)
+3. GUI crashes with the following error when running: (when installed using requirements.txt)
 
 >Could not locate zlibwapi.dll. Please make sure it is in your library path!
 
@@ -166,6 +191,8 @@ The image viewer loads the images and masks from the input directories. The foll
 
 3. Tensorboard not live plotting in windows (In progress).
    Workaround: Refresh tensorboard reopening after training.
+
+<br/>
 
 ## Related links:
 
