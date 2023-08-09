@@ -55,10 +55,10 @@ This documentation will guide users through the functionality of the GUI and how
 ------------------------------------------------------------------------------
 
 > **TO NOTE:**
-**_ If the installation process during the installation of PyQt5 shows an error, you have to install PyQt5 manually (via homebrew: brew install qt@5).
+**_If the installation process during the installation of PyQt5 shows an error, you have to install PyQt5 manually (via homebrew: brew install qt@5).
 > Then the qmake path has to be added to the .zshrc (if you use Z shell): export PATH="$PATH:[PathToqmakebin-folder]" and the terminal has to be restarted and the conda environment needs to be actvated again.
 > Then you have to install PyQt5 via: pip3 install PyQt5 --config-settings --confirm-license= --verbose
-> After that, remove PyQt5 from the requirements file and restart the installation with pip install -r requirements_apple_m1.txt **_
+> After that, remove PyQt5 from the requirements file and restart the installation with pip install -r requirements_apple_m1.txt_**
 
 ------------------------------------------------------------------------------
 
