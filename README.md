@@ -53,15 +53,8 @@ This documentation will guide users through the functionality of the GUI and how
       python NucleusAI.py
       ```
 ------------------------------------------------------------------------------
-
-> **TO NOTE:**
-**_If the installation process during the installation of PyQt5 shows an error, you have to install PyQt5 manually (via homebrew: brew install qt@5).
-> Then the qmake path has to be added to the .zshrc (if you use Z shell): export PATH="$PATH:[PathToqmakebin-folder]" and the terminal has to be restarted and the conda environment needs to be actvated again.
-> Then you have to install PyQt5 via: pip3 install PyQt5 --config-settings --confirm-license= --verbose
-> After that, remove PyQt5 from the requirements file and restart the installation with pip install -r requirements_apple_m1.txt_**
-
+_**For issues during installation please refer to the [Known issues](https://github.com/adgpta/NucleusAI/tree/9b032a2ee20c8981da7b9f8c6f58aad356806359#known-issues) section**_
 ------------------------------------------------------------------------------
-
       
 ## Guide:
 
@@ -145,7 +138,19 @@ The image viewer loads the images and masks from the input directories. The foll
 ## Known issues:
 
 
-1. GUI crashes with the following error when running: (when installed using requirements.txt)
+1. Error while installing PyQt5.
+   **To resolve:**
+      a. Install PyQt5 manually.
+         `Via homebrew: brew install qt@5`
+      b. Add qmake path to the .zshrc file.
+         `via Z shell: export PATH="$PATH:[PathToqmakebin-folder]"`
+      c. Restart terminal and reactivate conda environment.
+      d. Install PyQt5 using pip.
+         `pip3 install PyQt5 --config-settings --confirm-license= --verbose`
+      e. Remove PyQT5 from the requirements.txt and restart installation with:
+          `pip install -r requirements_apple_m1.txt`
+
+2. GUI crashes with the following error when running: (when installed using requirements.txt)
 
 >Could not locate zlibwapi.dll. Please make sure it is in your library path!
 
@@ -159,7 +164,7 @@ The image viewer loads the images and masks from the input directories. The foll
          
             `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\zlibwapi.dll`
 
-2. Tensorboard not live plotting in windows (In progress).
+3. Tensorboard not live plotting in windows (In progress).
    Workaround: Refresh tensorboard reopening after training.
 
 ## Related links:
