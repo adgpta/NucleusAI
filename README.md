@@ -1,4 +1,4 @@
-# NucleusAI: GUI Application for Nuclei Segmentation and Features Extraction
+# NucleusAI: GUI Application for Nuclei Segmentation and Feature Extraction
 
 NucleusAI provides a graphical user interface (GUI) platform to segment fluorescence images acquired from different microscopy techniques and extract radiomics features. This is applicable for both 2D and 3D images. Users can train their own segmentation models, validate the data and use the model to segment images in batches.
 
