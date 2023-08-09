@@ -53,7 +53,7 @@ This documentation will guide users through the functionality of the GUI and how
       python NucleusAI.py
       ```
 ------------------------------------------------------------------------------
-_**For issues during installation please refer to the [Known issues](https://github.com/adgpta/NucleusAI/tree/9b032a2ee20c8981da7b9f8c6f58aad356806359#known-issues) section**_
+> _**For issues during installation please refer to the [Known issues](https://github.com/adgpta/NucleusAI/tree/9b032a2ee20c8981da7b9f8c6f58aad356806359#known-issues) section**_
 ------------------------------------------------------------------------------
       
 ## Guide:
