@@ -39,7 +39,7 @@ This documentation will guide users through the functionality of the GUI and how
 
 1. Download and install [miniforge](https://github.com/conda-forge/miniforge)
    
-2.  Open the conda terminal and clone the GitHub repository to a folder
+2. Open the conda terminal and clone the GitHub repository to a folder
 
    ```
    git clone https://github.com/adgpta/NucleusAI.git
