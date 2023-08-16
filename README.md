@@ -153,7 +153,7 @@ The image viewer loads the images and masks from the input directories. The foll
 ## Known issues:
 
 
-1. Error while installing PyQt5.
+1. Error while installing PyQt5 on a Mac.
    
    **To resolve:**
    
